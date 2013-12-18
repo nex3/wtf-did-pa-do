@@ -1,0 +1,123 @@
+bullshit:
+- date: 17 December 2013
+  description: >
+    Penny Arcade announced the introduction of "Diversity Lounges" for all PAX
+    events
+  url: http://indiestatik.com/2013/12/17/pax-diversity-lounge/
+  apology:
+    date: 18 December 2013
+    url: http://forums.penny-arcade.com/discussion/185642/some-thoughts-on-the-diversity-hub-and-lounge
+
+- date: 26 November 2013
+  description: >
+    Penny Arcade posted an ad for a job that involved doing the work of three
+    people without being paid a fair wage for one
+  url: https://www.linkedin.com/jobs2/view/9887522?trk=job_nov&_mSplash=1
+
+- date: 2 September 2013
+  description: >
+    Mike Krahulik said that "pulling the Dickwolves merchandise was a mistake",
+    to the cheers of a crowd of PAX attendees
+  url: http://www.twitch.tv/pax/b/455394585?t=2h35m
+  apology:
+    date: 5 September 2013
+    url: http://www.penny-arcade.com/2013/09/04/some-clarification
+
+- date: 20 June 2013
+  description: >-
+    Mike Krahulik claimed that having a trans friend absolved him of transphobia
+  url: http://www.penny-arcade.com/2013/06/19/twiiter-sucks-sometimes
+  apology: &going-one-step-further
+    date: 22 June 2013
+    url: http://www.penny-arcade.com/2013/06/21/going-one-step-further
+
+- date: 20 June 2013
+  description: >-
+    Mike Krahulik went on another transphobic rant on Twitter
+  url: http://storify.com/MMASammich/penny-arcade-s-gabe-is-willfully-ignorant-again
+  apology: &going-one-step-further
+    date: 22 June 2013
+    url: http://www.penny-arcade.com/2013/06/21/going-one-step-further
+
+- date: 20 June 2013
+  description: >-
+    PAX Australia hosted a panel about how awful social justice is
+  url: http://aus.paxsite.com/schedule/panel/why-so-serious-has-the-industry-forgotten-that-games-are-supposed-to-be-fun
+
+- date: 7 June 2013
+  description: >-
+    Mike Krahulik went on a transphobic rant on Twitter
+  url: http://storify.com/MMASammich/penny-arcade-s-gabe-is-willfully-ignorant-again
+  apology: *going-one-step-further
+
+- date: 28 November 2012
+  description: >-
+    Mike Krahulik included Penny Arcade's rape joke in his list of favorite PA
+    strips about World of Warcraft
+  url: http://www.penny-arcade.com/2012/11/28/world-of-warcraft2
+
+- date: 16 May 2012
+  description: >-
+    Mike Krahulik publicly supported a Kickstarter for a game about rape
+  url: https://twitter.com/cwgabriel/status/202799326186053632
+
+- date: 16 December 2011
+  description: >-
+    Penny Arcade posted a guest comic with another rape joke
+  url: http://penny-arcade.com/comic/2011/12/16
+
+- date: 1 February 2011
+  description: >-
+    Mike Krahulik mocked the idea of rape culture, again
+  url: https://twitter.com/cwgabriel/status/32192773708849152
+  apology: &okay-thats-enough
+    date: 3 February 2011
+    url: http://www.penny-arcade.com/2011/2/3
+
+- date: 31 January 2011
+  description: >-
+    Mike Krahulik mocked the idea of "Rape Culture"
+  url: https://twitter.com/cwgabriel/status/32192773708849152
+  apology: *okay-thats-enough
+
+- date: 29 January 2011
+  description: >-
+    Mike Krahulik declared his intention to wear a reference to Penny Arcade's
+    rape joke to PAX
+  url: https://twitter.com/cwgabriel/status/31519118456782848
+  apology: *okay-thats-enough
+
+- date: 6 October 2010
+  description: >-
+    Mike Krahulik mocked trigger warnings
+  url: http://www.penny-arcade.com/2010/10/06/dungeons-and-dragons1
+
+- date: 6 October 2010
+  description: >-
+    Penny Arcade announced that they'll be selling merchandise based on their
+    rape joke
+  url: http://www.penny-arcade.com/2010/12/01/tis-the-season...to-buy-shit
+  apology:
+    date: 29 January 2011
+    url: http://www.penny-arcade.com/2011/01/28/dickwolves
+
+- date: 10 September 2010
+  description: >-
+    Mike Krahulik drew a reference to Penny Arcade's rape joke for a live
+    audience
+  url: https://www.youtube.com/watch?v=s__HgSYvjB4
+  apology: *okay-thats-enough
+
+- date: 13 August 2010
+  description: >-
+    Penny Arcade posted a comic making fun of critiques of their rape joke
+  url: http://www.penny-arcade.com/comic/2010/8/13/
+  apology: *okay-thats-enough
+
+- date: 11 August 2010
+  description: >-
+    Penny Arcade posted a comic with a rape joke
+  url: http://www.penny-arcade.com/comic/2010/8/11/
+  apology:
+    date: 13 August 2010
+    url: http://www.penny-arcade.com/2010/8/13/

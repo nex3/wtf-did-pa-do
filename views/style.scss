@@ -1,0 +1,87 @@
+@import 'compass/css3/font-face';
+@import 'compass/reset/utilities';
+@import 'compass/typography/text';
+
+@include font-face('Rockwell',
+  font-files("rockwell.woff", "rockwell.ttf", "rockwell.svg"),
+  $eot: "rockwell.eot");
+
+@include font-face('Rockwell',
+  font-files("rockwell-bold.woff", "rockwell-bold.ttf", "rockwell-bold.svg"),
+  $eot: "rockwell-bold.eot", $weight: bold);
+
+@include reset-html5;
+
+body {
+  text-align: center;
+  font: {
+    size: 1.5em;
+    family: Helvetica, Arial, Verdana, sans-serif;
+  }
+}
+
+h1, h2 {
+  font-family: 'Rockwell', Helvetica, sans-serif;
+}
+
+h1 {
+  margin-top: 0;
+  a {
+    color: black;
+    font-size: 0.6em;
+    text-decoration: none;
+  }
+}
+
+h2 {
+  font: {
+    weight: normal;
+    size: 2em;
+  }
+}
+
+#logo {
+  display: inline-block;
+  @include replace-text-with-dimensions("logo.png");
+  vertical-align: middle;
+}
+
+.distance {
+  font-weight: bold;
+}
+
+.previous, .next {
+  opacity: 0.7;
+
+  h1 + & {margin-top: 3em}
+}
+
+article {
+  margin: {
+    top: 14%;
+    left: 8%;
+    right: 8%;
+  }
+}
+
+footer {
+  opacity: 0.5;
+
+  margin: {
+    top: 5em;
+    left: 8%;
+    right: 8%;
+  }
+  padding-top: 5px;
+
+  font-size: 0.6em;
+  border-top: 1px solid #ddd;
+
+  a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+
+    &:hover {text-decoration: underline}
+  }
+}

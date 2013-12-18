@@ -1,0 +1,36 @@
+%h2
+  - if @bullshit.date == Date.today
+    <span class="distance">Today</span>,
+  - else
+    It's been <span class="distance">#{@bullshit.date_distance}</span> since
+  <a href="#{@bullshit.url}">#{@bullshit.description}</a>.
+
+%h2
+  - if @bullshit.apology
+    - if @bullshit.apology.date == @bullshit.date
+      <span class="distance">The very same day</span>,
+    - elsif @bullshit.apology.date == Date.today
+      <span class="distance">Today</span>,
+    - else
+      <span class="distance">#{@bullshit.date_distance(@bullshit.apology.date)}</span> later,
+    #{@bullshit.pronoun} issued a <a href="#{@bullshit.apology.url}">half-assed apology</a>.
+  - elsif @bullshit.most_recent?
+    #{@bullshit.pronoun.capitalize} have yet to issue a half-assed apology.
+  - else
+    #{@bullshit.pronoun.capitalize} never apologized.
+
+- if @next_bullshit
+  %p.next
+    - if @next_bullshit.date == @bullshit.date
+      <span class="distance">That same day</span>,
+    - else
+      <span class="distance">#{@bullshit.date_distance(@next_bullshit.date)}</span> later,
+    <a href="#{@next_bullshit.bullshit_url}">#{@next_bullshit.description}</a>.
+
+- if @previous_bullshit
+  %p.previous
+    - if @previous_bullshit.date == @bullshit.date
+      <span class="distance">That same day</span>,
+    - else
+      <span class="distance">#{@bullshit.date_distance(@previous_bullshit.date)}</span> earlier,
+    <a href="#{@previous_bullshit.bullshit_url}">#{@previous_bullshit.description}</a>.

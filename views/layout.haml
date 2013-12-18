@@ -1,0 +1,18 @@
+!!!html
+%html
+  %head
+    %title What the Fuck Did Penny Arcade Do This Time?
+    %link(rel='stylesheet' href='/style.css')/
+    %link(rel="shortcut icon" href="/images/favicon.ico")/
+    %link(rel="icon" href="/images/favicon.ico")/
+  %body
+    %h1
+      %a(href="/")
+        What the Fuck Did
+        %span#logo Penny Arcade
+        Do This Time?
+    %article!= yield
+    %footer
+      Made by <a href="http://twitter.com/nex3">@nex3</a>
+      | <a href="http://github.com/nex3/wtf-did-pa-do">Source Code</a>
+      | <a href="/acknowledgments">Acknowledgments</a>
