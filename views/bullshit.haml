@@ -7,13 +7,16 @@
 
 %h2
   - if @bullshit.apology
-    - if @bullshit.apology.date == @bullshit.date
-      <span class="distance">The very same day</span>,
-    - elsif @bullshit.apology.date == Date.today
-      <span class="distance">Today</span>,
+    - if @bullshit.apology.override
+      != @bullshit.apology.override
     - else
-      <span class="distance">#{@bullshit.date_distance(@bullshit.apology.date)}</span> later,
-    #{@bullshit.pronoun} issued a <a href="#{@bullshit.apology.url}">half-assed apology</a>.
+      - if @bullshit.apology.date == @bullshit.date
+        <span class="distance">The very same day</span>,
+      - elsif @bullshit.apology.date == Date.today
+        <span class="distance">Today</span>,
+      - else
+        <span class="distance">#{@bullshit.date_distance(@bullshit.apology.date)}</span> later,
+      #{@bullshit.pronoun} issued a <a href="#{@bullshit.apology.url}">half-assed apology</a>.
   - elsif @bullshit.most_recent?
     #{@bullshit.pronoun.capitalize} have yet to issue a half-assed apology.
   - else

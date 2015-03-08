@@ -67,10 +67,15 @@ end
 class HalfAssedApology
   attr_reader :date
   attr_reader :url
+  attr_reader :override
 
   def initialize(map)
-    @date = Date.parse(map['date'])
-    @url = map['url']
+    if map.is_a?(String)
+      @override = map
+    else
+      @date = Date.parse(map['date'])
+      @url = map['url']
+    end
   end
 end
 
